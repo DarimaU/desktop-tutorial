@@ -19,7 +19,7 @@ note over tm
 end note
 
 tl --> tm--: подтверждение
-tm --> op--: подтвеждение
+tm --> op--: подтверждение
 
 end
 
