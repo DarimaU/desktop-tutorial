@@ -23,7 +23,6 @@ tm --> op--: подтвеждение
 
 end
 
-
 group Самодиагностика и статус
 tl -> tl: самодиагностика
 tl -> tm: состояние светофора
@@ -41,7 +40,6 @@ end
 
 @enduml
 
-
 @startuml "базовый сценарий + hla"
 
 actor "Оператор" as op
@@ -50,7 +48,6 @@ participant "1. Связь" as conn
 participant "2. Система управления\nсветофора" as control_tl #red
 participant "3. Управление\nсветодиодами" as control_leds
 participant "4. Система\nдиагностики" as self_diag
-
 
 group Установка режимов
 
@@ -91,9 +88,7 @@ tm --#red> op--: подтверждение
 
 end
 
-
 @enduml
-
 
 @startuml "Негативный сценарий 1. Связь"
 
@@ -152,6 +147,5 @@ conn --#red> tm: подтверждение
 tm --#red> op--: подтверждение
 
 end
-
 
 @enduml
