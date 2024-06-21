@@ -54,25 +54,25 @@ group Установка режимов
 op -> tm++: задание режима
 tm -> conn: режим работы
 conn -> control_tl++: режим работы
-control_tl -#red> control_tl: запись режима
-control_tl --#red> conn--: подтверждение
+control_tl -[#red]> control_tl: запись режима
+control_tl --[#red]> conn--: подтверждение
 
-conn --#red> tm: подтверждение
-tm --#red> op--: подтверждение
+conn --[#red]> tm: подтверждение
+tm --[#red]> op--: подтверждение
 
 end
 
 group Самодиагностика и статус
 control_leds -> self_diag: статус
 self_diag -> control_tl: статус 
-control_tl -#red> conn: состояние светофора
-conn -#red> tm: состояние светофора
+control_tl -[#red]> conn: состояние светофора
+conn -[#red]> tm: состояние светофора
 note over conn 
 Компрометация сообщений от светофора в городскую систему 
 может замедлить время реакции на поломку, 
 но это не нарушает имеющиеся цели безопасности
 end note
-tm -#red> op: состояние светофоров
+tm -[#red]> op: состояние светофоров
 end
 
 group Ручное управление
@@ -82,8 +82,8 @@ tm -> conn: принудительная смена состояния
 conn -> control_tl++: принудительная смена состояния
 control_tl -> control_leds++: принудительная смена состояния
 control_leds --> control_tl--: подтверждение
-control_tl --#red> conn--: подтверждение
-conn --#red> tm: подтверждение
+control_tl --[#red]> conn--: подтверждение
+conn --[#red]> tm: подтверждение
 tm --#red> op--: подтверждение
 
 end
