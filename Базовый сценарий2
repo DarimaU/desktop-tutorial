@@ -17,6 +17,7 @@ pharmacy -> robot++: запрос рецепта или идентификато
 
 alt Рецепт
 robot -> robot: изготовление по рецепту
+else Идентификатор лекарства
 robot -> database: идентификатор лекарства
 database --> robot: рецепт
 end
