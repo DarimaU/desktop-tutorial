@@ -51,7 +51,7 @@
 
 Основные этапы процесса изготовления лекарства по рецепту
 
-![](https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Осн%20этапы.png)
+![](https://github.com/DarimaU/desktop-tutorial/blob/dom_zadanie/%D0%9E%D1%81%D0%BD%20%D1%8D%D1%82%D0%B0%D0%BF%D1%8B.png)
  
 
 ## Краткое описание назначения и применения системы
