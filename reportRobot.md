@@ -151,10 +151,7 @@
 "доктор плохого не посоветует" - врачи, выписывающие рецепты, благонадёжны
 Политика архитектуры
 
-Легенда
 ![](https://github.com/DarimaU/desktop-tutorial/blob/dom_zadanie/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA7.png)
-
-Качественные оценки доменов
 ![](https://github.com/DarimaU/desktop-tutorial/blob/dom_zadanie/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA6.png)
  
  Обоснование уровня доверия доменов безопасности
