@@ -1,0 +1,33 @@
+@startuml "usecases"
+
+title "Архитектура высокого уровня (HLA) v.0.00"
+
+rectangle "1.Связь" as foo1
+rectangle "2.Измерение параметров субстанций" as foo2 
+rectangle "3.Центральная\nсистема управления" as foo3
+rectangle "4.Самодиагностика"  as foo4
+rectangle "5. Перемещение\n компонентов" as foo5
+rectangle "6.Перемешивание" as foo6
+rectangle "7.Маркировка" as foo7
+rectangle "8.Стерилизация" as foo8
+rectangle "9.Нагрев/ \nохлаждение" as foo9
+rectangle "10.Приводы" as foo10
+
+.<-[bold]-> foo1
+foo1 <-[bold]-> foo3
+foo2 <-[bold]> foo3
+foo3 -[bold]-> foo5
+foo3 -[bold]-> foo6
+foo3 -[bold]-> foo7
+foo3 -[bold]-> foo8
+foo3 <-[bold] foo4
+foo3 -[bold]-> foo9
+foo5 -[bold]-> foo10
+foo6 -[bold]-> foo10
+foo7 -[bold]-> foo10
+foo8 -[bold]-> foo10
+foo9 -[bold]-> foo10
+foo10<-[bold]- foo2
+
+
+@enduml
