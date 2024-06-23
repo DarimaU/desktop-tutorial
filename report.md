@@ -40,7 +40,7 @@
 
 Робот-фармацевт
 
-![image](https://github.com/SvPolyanskaya/CyberImmunity/assets/163770686/be1ae8e9-5c97-4155-b25b-92425a7fb39b)
+![image](https://github.com/DarimaU/desktop-tutorial/blob/dom_zadanie/Robot.drawio))
 
 Продукт - робот-фармацевт, который производит лекарство по индивидуальному рецепту.
 Рецепт включает в себя
