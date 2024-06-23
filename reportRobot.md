@@ -121,7 +121,7 @@
 
 ### Основные функциональные сценарии получения лекарства
  Сценарий генерации событий
-![Сценарий генерации событий]()
+![Сценарий генерации событий](https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Robot%20pharmacy%20базовый%20сценарий.png))
  
 ### Описание Сценариев (последовательности выполнения операций), при которых ЦБ нарушаются
 ![Описание Сценариев:](https://www.plantuml.com/plantuml/png/pLFDpfD05DtFKzom_OA9MnQchpAb99AqqC2mS4TfrHXDrAqRzGqgbeZMuYlSUIFFPJerj8s9EpUKJC_FcNEvizBembIh9GLLcSIwJCf0APEQPK81VxOlkECJxstDFN-dnu-8F_B0HxkrB-KVd7R4Hxp-493Ts8PRtXCmN-mh77_bWKI0lydJa-nRcEZOv0LCFe3Voxbj0j8bnSiqoOnQ8rSQfskT6GyIgXXvM9R6Lx1t_0i9kWje_LGNAnq_kuAzbq0Iyu2N4vnVs-U4EtRZVKLYu7OKM6YZvsX5_MzvfWAVf70UR1FQtJYjdtWAjpsNMkJptA3pokHPjPedXLAkPmgVdAD7X9W3p3TsYmc_WQjeO5W4cNgStbuvhB1yb6YIbBYNQkJdu8OAXPthIUvXwplVY_AzGDT5ZVvHO2HDKqcZI5I3ifb41DoZAFI63myHEJItWDQYFv6uc7Z6BVxAnUD1yFUxxuBDaCxGByg-xI8CGHhu83C6nQ_TdpXkae0vxTu3RVEN7LLApP9iWTN_3G00)
