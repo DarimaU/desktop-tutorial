@@ -104,20 +104,11 @@
 ### Основные сценарии производства лекарства
 ![Описание Сценариев:](https://www.planttext.com/api/plantuml/png/hLRBJXj14BpFLqny3_BxTOZua5msZgKW6MDvRQJSi2q84GHop25Hn2NdmS7W-FaBCt-KwkxPnRiOHKQvm7hSrTrLNTFh_R0NT7lzmvREzCDc8mYROKQfta6lrTGPU-FExCGkhN4dTch_wDoUjZ_nlCAd1pl6_pitS4DwqdQEq1c5-YEZyVsj-upZt_GzqW14oJvnqgcxHgaEoXyq3Zf1kuU2N-qQMCwJqK6eEn-2xc7G-9WCepPkxDXTsmTtoN7XSIfJ0I6_g8mRebzZv-wIIr-_RMitGEq1rrbOGmSZbAMeCPEGrYXj8Pcqo7KDK20E2Go8BUsASqtZdej9K9L0L8mrdBDo1hf6DQh9y199pC7KtOJbGqDsWZvHOeN3DVukXHkUnfobbCoIHvPlABHWjC-WASMQXsauzv17EMP9eC4j4p78UqRJvhpvbF9Pxu2fd_u5H-MooR1oYiGvnnjfWn7b9A2sPt-Gd8oWXg3gASGozXvAJpQ0jIImWahVcT8CYZATU10L5VHxH-t-uRjc5_RmLjAlty0kTKrZuB5ZVcnEBPz0QcHdRaXIhJGrn9S0ldGZ5Hu3NdWXk4Yb0HQPwGXWc54CjVRTJuIBAb1qrKTlceU227sfMTrPP41L9KGkkmiab_LLw8gAdUnA4XLIXwfrTDJHTAl8wdDgV8K0p0XFIs9BDK-z44GRDM0h8LAgaoIFZk3otD5JwxahRSUHeEJWUoY5Dh0tbdYwqYpV2LANA7M-hhdDXL0McWY4TT0MRC_N1aBGtedMbSf7Ohq0AwhbKmBb8vwRXwMupFzdBssabOqNXfYK3OKBI8U-dS8k29vUhQurkLMwP6g-VLcYaaqiJPtLFEjTCCA6AYK4h6tp8ZTLJj4u5ukhybR9es-bJ3cLiFni5HOhSJNDPbIy_bCBm1gbckttIf9KwlBwc_7xnSlmnRyri8U16CaQYOTRYLdi21I2bHINohC4dx-PVgyXcAl4I7V1rto3B0x_wVJTiZrw-ybjsig2Dtfg1ST1hvJQnp3mA-Sl)
 
-
 ### Вариант 1. Лекарства общего назначения
-
-
-Упрощение
-Чтобы не отвлекаться на систему управления складскими запасами предположим, что это реализовано на уровне аптечной сети - только тем роботам будет передано задание на производство, которые располагают достаточным запасом субстанций
  
 
 
 ### Вариант 2. Лекарства из социального списка
-варианты
-- входит в список жизненно-необходимых, производство полностью или частично оплачивается государством
-- содержит наркотические вещества или прекурсоры для их получения, авторизованное получение такого лекарства должно строго контролироваться
-- всё остальное из варианта 1.
 ![](https://planttext.com/api/plantuml/png/hLRBKXf15DttLtJOMbey71wpIFaXReP7LQnIf6ImAZk5CZ6baMINHHxbnlK47KKG-8NkFygvjvkH6I04AXiSndlFFVVSSxlPQ_hUYTywEfIfLhDMyPgrPae8_y0_hCcKkjKVLAX6Aj1dgg-UPNP7gbzu7kFRa-hXxuC-rsrwacg8q065sbU1f2YfpzKOC7qLgA6-1jXOtICShoUgZq-ae683B0ug1mslxgFk5pK11CEbfDUKZNVUoP5NUPy8-mhC9whpW8UH6kahVR5V1x-GUHF6MFKOeLoDvsRGoQtgwQvwqjSSqJoLKiQ3SWYw8m5q6w1J_e7kxjU9VvyR3TMB2kX51mKfgiTAZF3lBWFdug2xN3b05jHZMUv95CRgHntlnfEAb4J5U113bZyWLMsDOZpSeJbnCB4BzIT3I8NWYH9Zl9pWSsHwYqHouYWqxMyezCBP5a4In8GT4J1sc_tGOqcWmMzk1EFWcJypRZQXVThQg6yjTCLHcNGyB9zeufBZ0qE3C_BnXDAE-a5oSWOHWgeN42jGZr0wd4ainHCBgFITMnf0KMud6aH1U2t_kDuwAjTEO5DhHBdz5ePn9Os1nuxvIVA6DD_GL4SDT9kaWjTd7AaxedcAx9pSCFlm-BWXrK-831leZpmJ0BH9_fbjrLsP4Jd3SsihKIks8cPFQIcD5Lxj2wO4KAvk352k6WRRssuiPrN9tBydrEfLiSivhZJU8vc8uxdTieaTQMW6BBoAVt3g-JLi9WjKj8cpoqNn17GjsNs3wOAAQcqcFNeiYY8XPTBhG4NPS7ucRPdCz3YUBOQOekroMKXH2EkEEpv9Xdps8XehWASHUOceNLYRaRQWWgsLmYZXk6IvrvLZdanzVhVrZLIzgM7fY7Y4wc05IuxmT2Dv56TmR4JG4GvLoRfiMAvmPl4f1sjAjqDeZYZZxd1wluZiLE0DSYC6MIjqThcAMLF9IKGuKVd_Bv3Xb1G_EhJDwh5_SGZIonXXHnXokNNoapjGSgMahJ7qkMVRbxdX3B1PBQAyU0rAecHbsX2hPBKWEZ7vIukydsmYdr3WqkpT4h9vaLyuqscMOP9FrColMCAyeSB3Y9qxmMnATE4dJdmL23xG34Z1vLk1LXdSh8QVxUy4tBp8w9XxOtxN2g8GTRScneA3gV3NWwcmGfF2tAIM7pJs6kGbPceH9lswC_-PYeMNIsRhhDpNTUlCQv8y8UAQE2iqSQQNipjtwKSPRuJOWnlmw_mF)
 
 ## Негативные сценарии 
@@ -150,33 +141,20 @@
 
 Цели безопасности
 1. Выполняются только аутентичные задания на производство
-
 2. Для производства используются только авторизованные вещества
-
 3. Продукт имеет аутентичную маркировку
 
 Предположения безопасности
 - "доктор плохого не посоветует" - врачи, выписывающие рецепты, благонадёжны
- 
 Политика архитектуры
-
 
 Легенда
 недоверенная сущность
-
-
 доверенная сущность
-
-
 доверенная сущность,
 повышающая целостность данных
-
 высокоцелостные данные
-
-
 низкоцелостные данные
-
-
 Качественные оценки доменов
 Сложность - S (simple), M(medium), C (complex) - простой, средней сложности, сложный
 Размер (объём) кода - S, M, L, XL - маленький, среднего размера, большой, очень большой
