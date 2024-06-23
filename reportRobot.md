@@ -97,7 +97,7 @@
 |*9. Нагрев/охлаждение*|	обеспечивает требуемые по тех. процессу температурные условия для химических реакций|---|
 |*10. Приводы*|	управляют захватами робота для реализации рассчитанных траекторий и механических воздействий на субстанции (в т.ч. измельчение и перемешивание)	|---|
 
-### 8. Основные функциональные сценарии
+## 8. Основные функциональные сценарии
 ![](https://www.plantuml.com/plantuml/png/pLFDpfD05DtFKzom_OA9MnQchpAb99AqqC2mS4TfrHXDrAqRzGqgbeZMuYlSUIFFPJerj8s9EpUKJC_FcNEvizBembIh9GLLcSIwJCf0APEQPK81VxOlkECJxstDFN-dnu-8F_B0HxkrB-KVd7R4Hxp-493Ts8PRtXCmN-mh77_bWKI0lydJa-nRcEZOv0LCFe3Voxbj0j8bnSiqoOnQ8rSQfskT6GyIgXXvM9R6Lx1t_0i9kWje_LGNAnq_kuAzbq0Iyu2N4vnVs-U4EtRZVKLYu7OKM6YZvsX5_MzvfWAVf70UR1FQtJYjdtWAjpsNMkJptA3pokHPjPedXLAkPmgVdAD7X9W3p3TsYmc_WQjeO5W4cNgStbuvhB1yb6YIbBYNQkJdu8OAXPthIUvXwplVY_AzGDT5ZVvHO2HDKqcZI5I3ifb41DoZAFI63myHEJItWDQYFv6uc7Z6BVxAnUD1yFUxxuBDaCxGByg-xI8CGHhu83C6nQ_TdpXkae0vxTu3RVEN7LLApP9iWTN_3G00)
 ![](https://www.plantuml.com/plantuml/png/bLFDZfH04BxtKrIuRZ3noi7ig_ImdKZ2m0IQWpTWLetHPFLclAXlWEEIHSTbNg7gZQngbiumCKxcCaFW-_dgg-xhqkh2LkiKWgeqiIvD6IXb4viQ2F0xlS4U7x6Z6WVy1S-V0Nx54VUqfRVkou0zu9uVVmk86cfnXnqmvWUzuzS_SGGHm0VvdKbqnoOwjdd19b-OFyXxQWFG9SHfOZAhDfmhYPEDpgm7CLMCPbYMn2UmZtZW1Bq7RLxgOgtZLoUmRv8FHsf3kdN3_S7EZRfxob3ag_mqmYUPGcQxvuT7ZlkUNWDpUySKtn5tZdsZhLvnbJnZPVEiMgzCeTGK6C8NJnD6m357rcbeour-e5P2I3d0EMhNLgScBBFyB5TNqS8MS91ovEz-gf4rRgUc91JL_zYGcjMEbIFPsq6qdTBURvZgkJ3iGbPly22dmAso5IJTBGHTVP9J2dEA8pNBhhhpiJcbqga5NfVdAIVjFIAXFyWfc-e_oYmH5vQqLIOj3U3d2thoVdwfqOL5ppm8VUX5B6Mo6pNR72qZ3ADpUvlEXWDAnuCioKct_xcRIbsp8z_ulm00)
 
@@ -120,7 +120,7 @@
  ### Негативный сценарий производства 2
 ![](https://planttext.com/api/plantuml/png/hLPDKnf14BtFhvYGeuKbuEu21yl_4NDOXQfGfKZ1QbLkYcLYIYF9BOTyb1VF6tGLKU0lpFoZlEuPrjrLGh1oWMNfVltwzUlPNUy4VZlOszcMkRrEVSllr3iv8O96i5sNENMXFwX8ZLIe3zH0tSdYibI_S3t6hrlLn_UrFjHTkfBg7g532hMtGabHKX-gCM06AbJt-WnWOtM5SDoUg04-aOAABR1eR3LQVZD0tIzg0WY6oqc_8rll_FQEl_K-4_OLcBTKvneN8pNIf_fuemb-4VCcZB7gCy9cBPrRG2SNggzxwbQVSKHdNyhNxNfDfWDB2Bma4NGNmDCUGjtRQ58F0susKWygf1j7A4fHVLPZXBzx35vAWwvozH1PK92bkI9X66iGTxsQJYfJ4XNZOTpp249IrjOefyCTcXK74xj8VpA4L0IUA376pGa-HwQtM2WdZK8J_uP23vnj4IH1JDWL8MDtsHDzbWGQ_EP6C1AU-ntZ5ZFwhrWh3QoDJZcgi98ESpDDd71yQ6XmXfjEg2oh7oGdPn0Xg7eCiK9r0wMZH68bdUYXqdTkQGX5kPru49xmzuBTvjxEPhqDgrepolmQJ5ELD0OUE-OdoHlI_49JHsgekoGL_9vmfJuIS5l-3TdjBL1AyeKesxkxBMDQzHEAmnFw8my8A5sQHM9zTKyMHCcGNbhA54pjZ5bSsbBZYqSlC-qrBDEB0JPhXa4-Nqtbp2jP-lU4UhCcLZcdAeqHIIlYU6XNRcBd6vbf2tyhQEpxGHrhoWALRM9oqoYUWCuaMt4utLPHgoVIuykoA1DIOMKHg3WRQr1OiKmIFOwJnH1JjbtE2YaBaRJ89PyjztmY8mLBWQiHkOhu7Ll3aS3WWpsMmiZXLCbyZql8P9d_qstNvrBrfzQbG-C6qeCQV3d2rRdaUHp0kp5BHpXKfLXbrtA50ujFELXSUcP4vj0o5e-cJnrHdAhyWjoOGT6gNPmjPT5KSZ8HJbp-_mjaE6N5ZuznitziOXoBT3D5s166N6cH_EmYLAfIqkeO-jopxSiyymomsI-Y_FmkL4J5olH2h8hLWkYavAyyjm3P9joC0YTc-MQGTONxx4odMOQ9cwdfpjb4rr3XOQGEdp2P4hy2PCv-5Ge-rGo8L-Nd0wqok5aDFzit1poBaN5adY1FTyqJNjpTWXZFd4xUNqydRuuctfD9pJvex0EHbvYfnPZqpcV-cOg5cpDcwypTrqNhFDKaUqAaDN7cQEAG4F5x0RzTPDu2uiHNGgp357Xr_mC0)
 
-### 10. Анализ векторов атак и эффекта 
+## 10. Анализ векторов атак и эффекта 
 | Название | Назначение | Результат атаки |
 |----|----|----| 
 |1. Связь|	отвечает за взаимодействие с системой распределения задач на изготовление и с базой данных рецептов|в результате компрометации произошла подмена задания на производство|
@@ -134,7 +134,7 @@
 |9. Нагрев/охлаждение|обеспечивает требуемые по тех. процессу температурные условия для химических реакций||
 |10. Приводы|	управляют захватами робота для реализации рассчитанных траекторий и механических воздействий на субстанции (в т.ч. измельчение и перемешивание)	||
 
-### 11. Упражнение
+## 11. Упражнение
 Используя пример выше, изобразите развитие атаки через другие скомпрометированные компоненты (по одному в сценарии)
 Если в результате развития атаки можно нарушить какую-либо ЦБ, то компонент обязан стать частью доверенной кодовой базы, если нет, то его следует рассматривать как недоверенный код.
 
