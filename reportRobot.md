@@ -17,25 +17,6 @@
 - [Анализ векторов атак и эффекта.](#Анализ-векторов-атак-и-эффекта-безопасности.)
 - [Упражнение.](#Упражнение)
 
-•	Учебный пример "Светофор"
-•	Краткое описание проектируемой системы
-•	Ключевые ценности, ущербы, неприемлемые события
-•	Контекст
-•	Основные функциональные сценарии
-•	Высокоуровневая архитектура
-•	Описание подсистем
-•	Расширенные диаграммы функциональных сценариев
-•	Цели и предположения безопасности
-•	Цели безопасности
-•	Предположения безопасности
-•	Таблица соотнесения ценностей, неприемлемых событий и целей безопасности
-•	Негативные сценарии
-•	Политика архитектуры
-•	Версия 1
-•	Версия 2
-•	Прототип системы
-
-
 ## Учебный пример "Робот-фармацевт
 
 Робот-фармацевт
@@ -52,7 +33,9 @@
 Основные этапы процесса изготовления лекарства по рецепту
 
 ![](https://github.com/DarimaU/desktop-tutorial/blob/dom_zadanie/%D0%9E%D1%81%D0%BD%20%D1%8D%D1%82%D0%B0%D0%BF%D1%8B.png)
- 
+
+ ## Высокоуровневая архитектура системы 
+![Высокоуровневая архитектура системы.](https://www.plantuml.com/plantuml/png/RPEzRjH058LxFyN85HGPlF-x4aAXe-0DM8ebCGXfyKgnGvquIWHAfAMa024Qwi74xE35tbSuzusuCsPMiv8Bt-BJFUVCkPAFqsnnbfs_MuhmF8rF5ccSXa6GlSsMiGZnYIxe6ffobAWefokwW18ew9OkqQ3YxnSQONc30ZMjnODdpvy-5Ezb9AE8hSxYasoHl35sFOdlh5rZGtUXMAJYzMhLynVw4f-nmL-Kx5UYXaOfi8CoiHRdRP2WIxh2Jvuv5AVUGEEFi-mBttCWySDuMQd2bkvGi-5wdd05RHrAjbPS0ZkxKc3RXjFQMGvyno7NiCzfS0yDnIUeqLWdZGeg5FzLGryraWBVscAsoKTNS9u8SqY6Evvr-rPJqeMFV9knF73v08q2gdLoWh4lc4XyiGUieDlZcJUwrOc_EkLYb5jtZIr_6nRU-7UO-kipYQ-clNrCyKZC4pHqpKA5txXtzPnqvajx4TUmCOMv8jswhLuK1FBnqOjNg-NfowCd5WLcY4CuCB2_Xuxn40Txemusxc2J3ZPjcSimQDYnDZDiv3DRmmHrmKaNd7R1MGVakJ-4WVqW28xZv9H_u7y0)
 
 ## Краткое описание назначения и применения системы
 
