@@ -1,23 +1,21 @@
 # Робот-фармацевт
 Учебный пример для курса по кибериммунной разработке
 
-
-- [Учебный пример "Робот-фармацевт.](#Учебный-пример-"Робот-Фрамацевт") 
-- [Краткое описание назначения и применения системы.](#Краткое-описание-назначения-и-применения-системы)
--  [Ключевые ценности, ущербы, неприемлемые события)](#Ключевые-ценности,ущербы,неприемлимые_события)
-- [Контекст работы системы](#Контекст-работы-системы)
+- [1. Учебный пример "Робот-фармацевт](#Учебный-пример-"Робот-Фрамацевт") 
+- [2. Краткое описание назначения и применения системы](#Краткое-описание-назначения-и-применения-системы)
+- [3. Ключевые ценности, ущербы, неприемлемые события)](#Ключевые-ценности,ущербы,неприемлимые_события)
+- [4. Контекст работы системы](#Контекст-работы-системы)
        - [Вариант 1 ](#Вариант-1)
        - [Вариант 2 ](#Вариант-1)
-- [Основные функциональные сценарии.](#Основные-функциональные-сценарии) 
-- [Высокоуровневая архитектура системы.](#Высокоуровневая-архитектура-системы) 
-- [Компоненты:  описание подсистем](#Компоненты:-описание-подсистем)
-- [Описание Сценариев (последовательности выполнения операций), при которых ЦБ нарушаются](#описание-сценариев-последовательности-выполнения-операций-при-которых-цб-нарушаются)
-- [Указание "доверенных компонент" на архитектурной диаграмме.](#указание-доверенных-компонент-на-архитектурной-диаграмме)
-- [Политики безопасности](#Политики-безопасности)
-- [Анализ векторов атак и эффекта.](#Анализ-векторов-атак-и-эффекта-безопасности.)
-- [Упражнение.](#Упражнение)
+- [5. Высокоуровневая архитектура системы.](#Высокоуровневая-архитектура-системы)
+- [6.Цели и предположения безопасности](#Цели-и-предположения-безопасности)
+- [7. Компоненты:  описание подсистем](#Компоненты:-описание-подсистем)
+- [8. Основные функциональные сценарии.](#Основные-функциональные-сценарии) 
+- [9. Негативные сценарии](#Негативные-сценарии)
+- [10. Анализ векторов атак и эффекта](#Анализ-векторов-атак-и-эффекта)
+- [11. Упражнение.](#Упражнение)
 
-## Учебный пример "Робот-фармацевт
+## 1. Учебный пример "Робот-фармацевт
 
 Робот-фармацевт
 
@@ -31,15 +29,13 @@
 
 ![](https://github.com/DarimaU/desktop-tutorial/blob/dom_zadanie/%D0%9E%D1%81%D0%BD%20%D1%8D%D1%82%D0%B0%D0%BF%D1%8B.png)
 
- ## Высокоуровневая архитектура системы 
-![Высокоуровневая архитектура системы.](https://www.plantuml.com/plantuml/png/RPC_RnD14CNx-nGZqq0HS_vlImY5ZeAFaCO20v628oK7jCb5YK29P4eA4AAXNYuSFkpu_1NUV2FUxdab5csn8ptllD--6UlsJxFfIVRspL6I7MP7CsdXavxf9IhDKMAbkLxe6OoWq6izHuqLporgSR_NAB3HXTn_-kp90tdNJjjfsagIazdpR3f_HTozzwyFCr8xRS5tCXPOwarBfgVoylYu4sdiil4pbhX3INw93IgKSZ0NmHR6Hd5NUVEuwBbUu2Th3iCaL-p-u_5TYV1xvF-mN8SmMEiDDWGl3kOShtAaaayO8NZhMWgico2wyEXUXDot8xfuDNunXy4jJRKbKgrWMh9pzoFk0TtVcfdTW1_zx1pTxVmEMzPD4ztExhCC8hJXVxGF91Km3T4RXn7ZYCOlRiyhLCsERNHl6KKiOpktvkwr2ckU9G5N_wvh7B5DQFjgb-H25W_v7wFMIm8CVdE1PHXs4a5qKZkcUxQmIzThtzr9awJzQ6_liHE9BU9bpyekfLSiihiR16eOg56WnawHOaK_k9fODV2AKImgbADGZaCv2IGherlPJVPdynVyLly2)
-
-## Краткое описание назначения и применения системы
+## 2. Краткое описание назначения и применения системы
 
 а) Робот-фармацевт управляется центральной системой по беспроводному интерфейсу
+
 б) Робот-фармацевт передаёт состояние в центральную систему
 
-Ценности продукта и негативные события в их отношении
+### 3. Ключевые ценности, ущербы, неприемлемые события
 |Ценность|	Негативное событие|	Величина ущерба|	Комментарий|
 |----|----|----|----|
 |Лекарство|Нарушение технологического процесса	|Высокий|возможно причинение вреда здоровью клиентов|
@@ -52,7 +48,7 @@
 - Оператор-фармацевт - вводит задание на производство и получает лекарство для передачи клиенту 
 - Пациент - получает рецепт от врача в клинике и по этому рецепту получает лекарство в аптеке
 
-## Контекст работы системы
+## 4. Контекст работы системы
 ### Вариант 1. Лекарства общего назначения
 
 - Не предполагает льготного получения, не является наркотиком, не предполагает существенных ограничений для клиентов.
@@ -73,7 +69,10 @@
 
   ![](https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/-Контекст%202.png)
 
- ## Цели и предположения безопасности
+## 5. Высокоуровневая архитектура системы 
+![Высокоуровневая архитектура системы.](https://www.plantuml.com/plantuml/png/RPC_RnD14CNx-nGZqq0HS_vlImY5ZeAFaCO20v628oK7jCb5YK29P4eA4AAXNYuSFkpu_1NUV2FUxdab5csn8ptllD--6UlsJxFfIVRspL6I7MP7CsdXavxf9IhDKMAbkLxe6OoWq6izHuqLporgSR_NAB3HXTn_-kp90tdNJjjfsagIazdpR3f_HTozzwyFCr8xRS5tCXPOwarBfgVoylYu4sdiil4pbhX3INw93IgKSZ0NmHR6Hd5NUVEuwBbUu2Th3iCaL-p-u_5TYV1xvF-mN8SmMEiDDWGl3kOShtAaaayO8NZhMWgico2wyEXUXDot8xfuDNunXy4jJRKbKgrWMh9pzoFk0TtVcfdTW1_zx1pTxVmEMzPD4ztExhCC8hJXVxGF91Km3T4RXn7ZYCOlRiyhLCsERNHl6KKiOpktvkwr2ckU9G5N_wvh7B5DQFjgb-H25W_v7wFMIm8CVdE1PHXs4a5qKZkcUxQmIzThtzr9awJzQ6_liHE9BU9bpyekfLSiihiR16eOg56WnawHOaK_k9fODV2AKImgbADGZaCv2IGherlPJVPdynVyLly2)
+
+ ## 6. Цели и предположения безопасности
  
 Цели безопасности
 
@@ -83,7 +82,7 @@
 
 - "доктор плохого не посоветует" - врачи, выписывающие рецепты, благонадёжны.
  
-## Компоненты:  описание подсистем
+## 7. Компоненты:  описание подсистем
 | Название | Назначение | Комментарий |
 |----|----|----|
 |*1. Связь*|	отвечает за взаимодействие с системой распределения задач на изготовление и с базой данных рецептов|	получает полный рецепт или его идентификатор|
@@ -97,9 +96,9 @@
 |*9. Нагрев/охлаждение*|	обеспечивает требуемые по тех. процессу температурные условия для химических реакций|---|
 |*10. Приводы*|	управляют захватами робота для реализации рассчитанных траекторий и механических воздействий на субстанции (в т.ч. измельчение и перемешивание)	|---|
 
-### Основные сценарии получения лекарства
-![Сценарий генерации событий](https://www.plantuml.com/plantuml/png/pLFDpfD05DtFKzom_OA9MnQchpAb99AqqC2mS4TfrHXDrAqRzGqgbeZMuYlSUIFFPJerj8s9EpUKJC_FcNEvizBembIh9GLLcSIwJCf0APEQPK81VxOlkECJxstDFN-dnu-8F_B0HxkrB-KVd7R4Hxp-493Ts8PRtXCmN-mh77_bWKI0lydJa-nRcEZOv0LCFe3Voxbj0j8bnSiqoOnQ8rSQfskT6GyIgXXvM9R6Lx1t_0i9kWje_LGNAnq_kuAzbq0Iyu2N4vnVs-U4EtRZVKLYu7OKM6YZvsX5_MzvfWAVf70UR1FQtJYjdtWAjpsNMkJptA3pokHPjPedXLAkPmgVdAD7X9W3p3TsYmc_WQjeO5W4cNgStbuvhB1yb6YIbBYNQkJdu8OAXPthIUvXwplVY_AzGDT5ZVvHO2HDKqcZI5I3ifb41DoZAFI63myHEJItWDQYFv6uc7Z6BVxAnUD1yFUxxuBDaCxGByg-xI8CGHhu83C6nQ_TdpXkae0vxTu3RVEN7LLApP9iWTN_3G00)
-![Сценарий генерации событий](https://www.plantuml.com/plantuml/png/bLFDZfH04BxtKrIuRZ3noi7ig_ImdKZ2m0IQWpTWLetHPFLclAXlWEEIHSTbNg7gZQngbiumCKxcCaFW-_dgg-xhqkh2LkiKWgeqiIvD6IXb4viQ2F0xlS4U7x6Z6WVy1S-V0Nx54VUqfRVkou0zu9uVVmk86cfnXnqmvWUzuzS_SGGHm0VvdKbqnoOwjdd19b-OFyXxQWFG9SHfOZAhDfmhYPEDpgm7CLMCPbYMn2UmZtZW1Bq7RLxgOgtZLoUmRv8FHsf3kdN3_S7EZRfxob3ag_mqmYUPGcQxvuT7ZlkUNWDpUySKtn5tZdsZhLvnbJnZPVEiMgzCeTGK6C8NJnD6m357rcbeour-e5P2I3d0EMhNLgScBBFyB5TNqS8MS91ovEz-gf4rRgUc91JL_zYGcjMEbIFPsq6qdTBURvZgkJ3iGbPly22dmAso5IJTBGHTVP9J2dEA8pNBhhhpiJcbqga5NfVdAIVjFIAXFyWfc-e_oYmH5vQqLIOj3U3d2thoVdwfqOL5ppm8VUX5B6Mo6pNR72qZ3ADpUvlEXWDAnuCioKct_xcRIbsp8z_ulm00)
+### 8. Основные функциональные сценарии
+![](https://www.plantuml.com/plantuml/png/pLFDpfD05DtFKzom_OA9MnQchpAb99AqqC2mS4TfrHXDrAqRzGqgbeZMuYlSUIFFPJerj8s9EpUKJC_FcNEvizBembIh9GLLcSIwJCf0APEQPK81VxOlkECJxstDFN-dnu-8F_B0HxkrB-KVd7R4Hxp-493Ts8PRtXCmN-mh77_bWKI0lydJa-nRcEZOv0LCFe3Voxbj0j8bnSiqoOnQ8rSQfskT6GyIgXXvM9R6Lx1t_0i9kWje_LGNAnq_kuAzbq0Iyu2N4vnVs-U4EtRZVKLYu7OKM6YZvsX5_MzvfWAVf70UR1FQtJYjdtWAjpsNMkJptA3pokHPjPedXLAkPmgVdAD7X9W3p3TsYmc_WQjeO5W4cNgStbuvhB1yb6YIbBYNQkJdu8OAXPthIUvXwplVY_AzGDT5ZVvHO2HDKqcZI5I3ifb41DoZAFI63myHEJItWDQYFv6uc7Z6BVxAnUD1yFUxxuBDaCxGByg-xI8CGHhu83C6nQ_TdpXkae0vxTu3RVEN7LLApP9iWTN_3G00)
+![](https://www.plantuml.com/plantuml/png/bLFDZfH04BxtKrIuRZ3noi7ig_ImdKZ2m0IQWpTWLetHPFLclAXlWEEIHSTbNg7gZQngbiumCKxcCaFW-_dgg-xhqkh2LkiKWgeqiIvD6IXb4viQ2F0xlS4U7x6Z6WVy1S-V0Nx54VUqfRVkou0zu9uVVmk86cfnXnqmvWUzuzS_SGGHm0VvdKbqnoOwjdd19b-OFyXxQWFG9SHfOZAhDfmhYPEDpgm7CLMCPbYMn2UmZtZW1Bq7RLxgOgtZLoUmRv8FHsf3kdN3_S7EZRfxob3ag_mqmYUPGcQxvuT7ZlkUNWDpUySKtn5tZdsZhLvnbJnZPVEiMgzCeTGK6C8NJnD6m357rcbeour-e5P2I3d0EMhNLgScBBFyB5TNqS8MS91ovEz-gf4rRgUc91JL_zYGcjMEbIFPsq6qdTBURvZgkJ3iGbPly22dmAso5IJTBGHTVP9J2dEA8pNBhhhpiJcbqga5NfVdAIVjFIAXFyWfc-e_oYmH5vQqLIOj3U3d2thoVdwfqOL5ppm8VUX5B6Mo6pNR72qZ3ADpUvlEXWDAnuCioKct_xcRIbsp8z_ulm00)
 
 ### Основные сценарии производства лекарства
 ![Описание Сценариев:](https://www.planttext.com/api/plantuml/png/hLRBJXj14BpFLqny3_BxTOZua5msZgKW6MDvRQJSi2q84GHop25Hn2NdmS7W-FaBCt-KwkxPnRiOHKQvm7hSrTrLNTFh_R0NT7lzmvREzCDc8mYROKQfta6lrTGPU-FExCGkhN4dTch_wDoUjZ_nlCAd1pl6_pitS4DwqdQEq1c5-YEZyVsj-upZt_GzqW14oJvnqgcxHgaEoXyq3Zf1kuU2N-qQMCwJqK6eEn-2xc7G-9WCepPkxDXTsmTtoN7XSIfJ0I6_g8mRebzZv-wIIr-_RMitGEq1rrbOGmSZbAMeCPEGrYXj8Pcqo7KDK20E2Go8BUsASqtZdej9K9L0L8mrdBDo1hf6DQh9y199pC7KtOJbGqDsWZvHOeN3DVukXHkUnfobbCoIHvPlABHWjC-WASMQXsauzv17EMP9eC4j4p78UqRJvhpvbF9Pxu2fd_u5H-MooR1oYiGvnnjfWn7b9A2sPt-Gd8oWXg3gASGozXvAJpQ0jIImWahVcT8CYZATU10L5VHxH-t-uRjc5_RmLjAlty0kTKrZuB5ZVcnEBPz0QcHdRaXIhJGrn9S0ldGZ5Hu3NdWXk4Yb0HQPwGXWc54CjVRTJuIBAb1qrKTlceU227sfMTrPP41L9KGkkmiab_LLw8gAdUnA4XLIXwfrTDJHTAl8wdDgV8K0p0XFIs9BDK-z44GRDM0h8LAgaoIFZk3otD5JwxahRSUHeEJWUoY5Dh0tbdYwqYpV2LANA7M-hhdDXL0McWY4TT0MRC_N1aBGtedMbSf7Ohq0AwhbKmBb8vwRXwMupFzdBssabOqNXfYK3OKBI8U-dS8k29vUhQurkLMwP6g-VLcYaaqiJPtLFEjTCCA6AYK4h6tp8ZTLJj4u5ukhybR9es-bJ3cLiFni5HOhSJNDPbIy_bCBm1gbckttIf9KwlBwc_7xnSlmnRyri8U16CaQYOTRYLdi21I2bHINohC4dx-PVgyXcAl4I7V1rto3B0x_wVJTiZrw-ybjsig2Dtfg1ST1hvJQnp3mA-Sl)
@@ -111,7 +110,7 @@
 ### Вариант 2. Лекарства из социального списка
 ![](https://planttext.com/api/plantuml/png/hLRBKXf15DttLtJOMbey71wpIFaXReP7LQnIf6ImAZk5CZ6baMINHHxbnlK47KKG-8NkFygvjvkH6I04AXiSndlFFVVSSxlPQ_hUYTywEfIfLhDMyPgrPae8_y0_hCcKkjKVLAX6Aj1dgg-UPNP7gbzu7kFRa-hXxuC-rsrwacg8q065sbU1f2YfpzKOC7qLgA6-1jXOtICShoUgZq-ae683B0ug1mslxgFk5pK11CEbfDUKZNVUoP5NUPy8-mhC9whpW8UH6kahVR5V1x-GUHF6MFKOeLoDvsRGoQtgwQvwqjSSqJoLKiQ3SWYw8m5q6w1J_e7kxjU9VvyR3TMB2kX51mKfgiTAZF3lBWFdug2xN3b05jHZMUv95CRgHntlnfEAb4J5U113bZyWLMsDOZpSeJbnCB4BzIT3I8NWYH9Zl9pWSsHwYqHouYWqxMyezCBP5a4In8GT4J1sc_tGOqcWmMzk1EFWcJypRZQXVThQg6yjTCLHcNGyB9zeufBZ0qE3C_BnXDAE-a5oSWOHWgeN42jGZr0wd4ainHCBgFITMnf0KMud6aH1U2t_kDuwAjTEO5DhHBdz5ePn9Os1nuxvIVA6DD_GL4SDT9kaWjTd7AaxedcAx9pSCFlm-BWXrK-831leZpmJ0BH9_fbjrLsP4Jd3SsihKIks8cPFQIcD5Lxj2wO4KAvk352k6WRRssuiPrN9tBydrEfLiSivhZJU8vc8uxdTieaTQMW6BBoAVt3g-JLi9WjKj8cpoqNn17GjsNs3wOAAQcqcFNeiYY8XPTBhG4NPS7ucRPdCz3YUBOQOekroMKXH2EkEEpv9Xdps8XehWASHUOceNLYRaRQWWgsLmYZXk6IvrvLZdanzVhVrZLIzgM7fY7Y4wc05IuxmT2Dv56TmR4JG4GvLoRfiMAvmPl4f1sjAjqDeZYZZxd1wluZiLE0DSYC6MIjqThcAMLF9IKGuKVd_Bv3Xb1G_EhJDwh5_SGZIonXXHnXokNNoapjGSgMahJ7qkMVRbxdX3B1PBQAyU0rAecHbsX2hPBKWEZ7vIukydsmYdr3WqkpT4h9vaLyuqscMOP9FrColMCAyeSB3Y9qxmMnATE4dJdmL23xG34Z1vLk1LXdSh8QVxUy4tBp8w9XxOtxN2g8GTRScneA3gV3NWwcmGfF2tAIM7pJs6kGbPceH9lswC_-PYeMNIsRhhDpNTUlCQv8y8UAQE2iqSQQNipjtwKSPRuJOWnlmw_mF)
 
-## Негативные сценарии 
+## 9. Негативные сценарии 
 ### Негативный сценарий получения (последовательности выполнения операций), при которых ЦБ нарушаются
 ![](https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Нарушение%20связи.png)
 
@@ -121,7 +120,7 @@
 ### Негативный сценарий производства 2
 ![](https://planttext.com/api/plantuml/png/hLPDKnf14BtFhvYGeuKbuEu21yl_4NDOXQfGfKZ1QbLkYcLYIYF9BOTyb1VF6tGLKU0lpFoZlEuPrjrLGh1oWMNfVltwzUlPNUy4VZlOszcMkRrEVSllr3iv8O96i5sNENMXFwX8ZLIe3zH0tSdYibI_S3t6hrlLn_UrFjHTkfBg7g532hMtGabHKX-gCM06AbJt-WnWOtM5SDoUg04-aOAABR1eR3LQVZD0tIzg0WY6oqc_8rll_FQEl_K-4_OLcBTKvneN8pNIf_fuemb-4VCcZB7gCy9cBPrRG2SNggzxwbQVSKHdNyhNxNfDfWDB2Bma4NGNmDCUGjtRQ58F0susKWygf1j7A4fHVLPZXBzx35vAWwvozH1PK92bkI9X66iGTxsQJYfJ4XNZOTpp249IrjOefyCTcXK74xj8VpA4L0IUA376pGa-HwQtM2WdZK8J_uP23vnj4IH1JDWL8MDtsHDzbWGQ_EP6C1AU-ntZ5ZFwhrWh3QoDJZcgi98ESpDDd71yQ6XmXfjEg2oh7oGdPn0Xg7eCiK9r0wMZH68bdUYXqdTkQGX5kPru49xmzuBTvjxEPhqDgrepolmQJ5ELD0OUE-OdoHlI_49JHsgekoGL_9vmfJuIS5l-3TdjBL1AyeKesxkxBMDQzHEAmnFw8my8A5sQHM9zTKyMHCcGNbhA54pjZ5bSsbBZYqSlC-qrBDEB0JPhXa4-Nqtbp2jP-lU4UhCcLZcdAeqHIIlYU6XNRcBd6vbf2tyhQEpxGHrhoWALRM9oqoYUWCuaMt4utLPHgoVIuykoA1DIOMKHg3WRQr1OiKmIFOwJnH1JjbtE2YaBaRJ89PyjztmY8mLBWQiHkOhu7Ll3aS3WWpsMmiZXLCbyZql8P9d_qstNvrBrfzQbG-C6qeCQV3d2rRdaUHp0kp5BHpXKfLXbrtA50ujFELXSUcP4vj0o5e-cJnrHdAhyWjoOGT6gNPmjPT5KSZ8HJbp-_mjaE6N5ZuznitziOXoBT3D5s166N6cH_EmYLAfIqkeO-jopxSiyymomsI-Y_FmkL4J5olH2h8hLWkYavAyyjm3P9joC0YTc-MQGTONxx4odMOQ9cwdfpjb4rr3XOQGEdp2P4hy2PCv-5Ge-rGo8L-Nd0wqok5aDFzit1poBaN5adY1FTyqJNjpTWXZFd4xUNqydRuuctfD9pJvex0EHbvYfnPZqpcV-cOg5cpDcwypTrqNhFDKaUqAaDN7cQEAG4F5x0RzTPDu2uiHNGgp357Xr_mC0)
 
-### Анализ векторов атак и эффекта 
+### 10. Анализ векторов атак и эффекта 
 | Название | Назначение | Результат атаки |
 |----|----|----| 
 |1. Связь|	отвечает за взаимодействие с системой распределения задач на изготовление и с базой данных рецептов|в результате компрометации произошла подмена задания на производство|
@@ -135,7 +134,7 @@
 |9. Нагрев/охлаждение|обеспечивает требуемые по тех. процессу температурные условия для химических реакций||
 |10. Приводы|	управляют захватами робота для реализации рассчитанных траекторий и механических воздействий на субстанции (в т.ч. измельчение и перемешивание)	||
 
-### Упражнение
+### 11. Упражнение
 Используя пример выше, изобразите развитие атаки через другие скомпрометированные компоненты (по одному в сценарии)
 Если в результате развития атаки можно нарушить какую-либо ЦБ, то компонент обязан стать частью доверенной кодовой базы, если нет, то его следует рассматривать как недоверенный код.
 
@@ -156,7 +155,12 @@
 высокоцелостные данные
 низкоцелостные данные
 Качественные оценки доменов
-Сложность - S (simple), M(medium), C (complex) - простой, средней сложности, сложный
+
+Сложность - S (simple), 
+
+M(medium), 
+
+C (complex) - простой, средней сложности, сложный
 Размер (объём) кода - S, M, L, XL - маленький, среднего размера, большой, очень большой
 - простой и маленький
  
